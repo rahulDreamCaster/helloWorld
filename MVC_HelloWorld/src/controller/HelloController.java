@@ -20,6 +20,7 @@ public class HelloController implements Controller{
 		m.put("msg","Hello...."+name);
 		
 		System.out.println("hello friends");
+		System.out.println("test1");
 		
 		ModelAndView mav = new ModelAndView("success",m);
 		
