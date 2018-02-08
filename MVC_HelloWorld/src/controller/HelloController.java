@@ -22,6 +22,7 @@ public class HelloController implements Controller{
 		System.out.println("hello friends");
 		System.out.println("test1");
 		System.out.println("changes test 4");
+		System.out.println("changes test 5 with new master");
 		ModelAndView mav = new ModelAndView("success",m);
 		
 		
