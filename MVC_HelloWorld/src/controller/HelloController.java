@@ -19,6 +19,8 @@ public class HelloController implements Controller{
 		Map m=new HashMap();
 		m.put("msg","Hello...."+name);
 		
+		System.out.println("hello friends");
+		
 		ModelAndView mav = new ModelAndView("success",m);
 		
 		
